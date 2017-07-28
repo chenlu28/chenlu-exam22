@@ -1,0 +1,8 @@
+      <div class="col-1" (click)="onUserClick()">[ ]</div>
+      <div class="col-1" (click)="onUserClick()">{{user.id}}</div>
+      <div class="col-2">{{user.name | uppercase | lowercase}}</div>
+      <div class="col-1">{{user.sex | sexName}}</div>
+      <div class="col-2"><a target="_blank" href="http://github.com/{{user.project}}">{{user.project}}</a></div>
+      <div class="col-1">{{user.level}}</div>
+
+      <div class="col-2">编辑 删除</div>
